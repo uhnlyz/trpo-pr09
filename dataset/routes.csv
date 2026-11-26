@@ -1,0 +1,4 @@
+method,path,controller,action
+GET,/,HomeController,index
+GET,/catalog,CatalogController,index
+GET,/product,CatalogController,show
