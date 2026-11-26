@@ -4,7 +4,7 @@
 Добавлена корзина интернет-магазина. В сессии хранятся только идентификаторы товаров и количество. Сведения о товарах и расчёт суммы берутся из ProductRepository и CartService.
 
 ## Запуск
-PHP 8.0+: `php -S localhost:8000 -t public`, затем http://localhost:8000.
+PHP 8.1+: `php -S localhost:8000 -t public`, затем http://localhost:8000.
 
 ## Маршруты
 - GET /cart — просмотр корзины;
